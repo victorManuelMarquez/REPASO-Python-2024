@@ -1,3 +1,6 @@
-n = '34'
-x = int(n) + 7
-print(x)
+n = 3.4 - 12 # conversión implícita
+print(n, end=' => ')
+print(type(n))
+x = int(n) + int('3') # conversión explícita
+print(x, end=' => ')
+print(type(x))
